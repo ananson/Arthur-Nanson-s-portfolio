@@ -1,0 +1,10 @@
+global main
+
+section .text
+
+main:
+
+	nop
+	mov rax, 32
+	mov rbx, 1111111b
+	syscall

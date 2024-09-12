@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ZMDB</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="login_hover">Username</string>
+    <string name="login_button">Continue</string>
+    <string name="search_topbar">Search a Movie</string>
+    <string name="search_hover">"Enter movie name"</string>
+    <string name="search_button">Search Movie</string>v
+    <string name="add_top_button">Add to top</string>
+    <string name="add_watchlist_button">Add to watch</string>
+    <string name="movie_page_button">Movie page</string>
+    <string name="watchlist_topbar">Your Watchlist</string>
+    <string name="delete_button">Delete</string>
+    <string name="top_topbar">Your Top Movies</string>
+    <string name="up">↑</string>
+    <string name="down">↓</string>
+    <string name="random">Get a Random Movie</string>
+    <string name="random_button">Get Random Movie</string>
+    <string name="random_empty">Your watchlist is empty.</string>
+    <string name="no_title">No Title.</string>
+    <string name="no_overview">No Overview.</string>
+    <string name="no_rating">No Rating.</string>
+    <string name="random_watch">Watch this Movie</string>
+    <string name="random_other_movie">Get Another Random Movie</string>
+    <string name="back">Go back</string>
+    <string name="rating">Rating:</string>
+    <string name="loading_failed">Failed to load movie details</string>
+    <string name="widget_text">Random Movie !</string>
+
+
+</resources>

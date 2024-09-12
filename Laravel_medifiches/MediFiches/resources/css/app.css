@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+input:read-only:not(input[type = 'checkbox']){
+    background-color: dimgray;
+    opacity: 0.7;
+    color: whitesmoke;
+}
+

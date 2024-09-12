@@ -1,0 +1,175 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.13)  29 MAY 2022 12:37
+entering extended mode
+**./rapport.tex
+(rapport.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) ("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
+Package: babel 2020/02/28 3.41 The Babel package
+
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
+File: switch.def 2020/02/28 3.41 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel-french\fre
+nch.ldf"
+Language: french 2020/01/30 v3.5g French support from the babel system
+
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/02/28 3.41 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
+\bbl@readstream=\read2
+\bbl@dirlevel=\count177
+)
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language22) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language22) on input line 92.
+\FB@nonchar=\count178
+Package babel Info: Making : an active character on input line 419.
+Package babel Info: Making ; an active character on input line 420.
+Package babel Info: Making ! an active character on input line 421.
+Package babel Info: Making ? an active character on input line 422.
+\FBguill@level=\count179
+\FBold@everypar=\toks15
+\FB@Mht=\dimen136
+\mc@charclass=\count180
+\mc@charfam=\count181
+\mc@charslot=\count182
+\std@mcc=\count183
+\dec@mcc=\count184
+\c@FBcaption@count=\count185
+\listindentFB=\dimen137
+\descindentFB=\dimen138
+\labelindentFB=\dimen139
+\labelwidthFB=\dimen140
+\leftmarginFB=\dimen141
+\parindentFFN=\dimen142
+\FBfnindent=\dimen143
+))
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/latex/carlisle\scalefnt.
+sty")
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\nanso\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
+d-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count186
+\l__pdf_internal_box=\box45
+) (rapport.aux)
+\openout1 = `rapport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Info: Redefining \degres on input line 8.
+LaTeX Info: Redefining \dots on input line 8.
+LaTeX Info: Redefining \up on input line 8.
+
+
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 8.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+[1
+
+{C:/Users/nanso/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(rapport.toc)
+\tf@toc=\write3
+\openout3 = `rapport.toc'.
+
+ [1
+
+]
+Chapitre 1.
+
+Overfull \hbox (14.52838pt too wide) in paragraph at lines 14--19
+\OT1/cmr/m/n/10 L'autre par-tie de cette par-tie 4 consi-sait en une ameliorat
+ion du jeu en implementant
+ []
+
+[2
+
+]
+Chapitre 2.
+[3
+
+]
+Chapitre 3.
+[4
+
+]
+Chapitre 4.
+[5
+
+] (rapport.aux) ) 
+Here is how much of TeX's memory you used:
+ 1816 strings out of 480934
+ 28469 string characters out of 2899917
+ 281747 words of memory out of 3000000
+ 17725 multiletter control sequences out of 15000+200000
+ 536893 words of font info for 39 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,35p,1311b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/nanso/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb><C:/Users/nanso/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nanso/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nanso/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/na
+nso/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+
+Output written on rapport.pdf (6 pages, 80457 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

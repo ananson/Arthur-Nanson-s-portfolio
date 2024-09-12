@@ -1,0 +1,5 @@
+Model\Model.class
+View\View.class
+Model\MergeSort.class
+Model\BubbleSort.class
+View\FxmlController.class

@@ -1,0 +1,13 @@
+Model\StationDTO.class
+Model\Model.class
+Model\StationDao.class
+View\View.class
+View\TableWay.class
+Model\Dao.class
+Model\StationNameDto.class
+Model\ConfigManager$ConfigManagerHolder.class
+Model\ConfigManager.class
+View\TableRow.class
+Model\Repository.class
+Presenter\Presenter.class
+View\FxmlController.class

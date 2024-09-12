@@ -1,0 +1,134 @@
+<odoo>
+    <data>
+        <record model="res.partner" id="auteur1">
+            <field name="name">Chuck Palahniuk</field>
+            <field name="auteur">True</field>
+        </record>
+        <record model="esi_lecture.book" id="book1">
+            <field name="nom">Fight Club</field>
+            <field name="my_description">Pourvu d'une situation des plus enviable, un jeune homme à bout de nerfs retrouve un équilibre relatif en compagnie de Marla, rencontrée dans un groupe d'entraide. Il fait également la connaissance de Tyler Durden, personnage enthousiaste et charismatique.</field>
+            <field name="nombre_pages">272</field>
+            <field name="auteur_id" eval="[(4, ref('auteur1'), None)]"></field>
+            <field name="couverture" type="base64" file="esi_lecture/images/fight_club.jpg"></field>
+            <field name="parution">1996-08-17</field>
+
+
+        </record>
+
+        <record model="res.partner" id="auteur2">
+            <field name="name">Mark Z. Danielewski</field>
+            <field name="auteur">True</field>
+        </record>
+        <record model="esi_lecture.book" id="book2">
+            <field name="nom">La Maison des feuilles</field>
+            <field name="my_description">Une maison plus grande dedans que dehors avec en son cœur une obscurité abyssale et toujours croissante, où résonne un grondement impie qui semble vouloir déchirer les murs et dévorer les rêves. Vos rêves..</field>
+            <field name="nombre_pages">709</field>
+            <field name="auteur_id" eval="[(4, ref('auteur2'), None)]"></field>
+            <field name="couverture" type="base64" file="esi_lecture/images/house_of_leaves.jpg"></field>
+            <field name="parution">2002-08-29</field>
+
+        </record>
+
+
+        <record id="demo_partner_1" model="res.partner">
+            <field name="name">Presses Universitaires de Bruxelles</field>
+            <field name="email">presses@universitaires.be</field>
+            <field name="phone">+123456789</field>
+            <field name="street">123 Rue de l'Université</field>
+            <field name="city">Bruxelles</field>
+        </record>
+
+        <record id="book_product_01" model="product.template">
+            <field name="name">Fight Club</field>
+            <field name="available_in_pos">True</field>
+            <field name="standard_price">10.99</field>
+            <field name="list_price">14.90</field>
+            <field name="weight">0.30</field>
+            <field name="to_weight">True</field>
+            <field name="type">product</field>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="qty_available">20</field>
+            <field name="default_code">2070584623</field>
+            <field name="livre"
+                   eval="[(4, ref('book1'), None)]"/>
+            <field name="image_1920" type="base64" file="esi_lecture/images/fight_club.jpg"></field>
+        </record>
+
+        <record id="book_product_02" model="product.template">
+            <field name="name">La Maison des feuilles</field>
+            <field name="available_in_pos">True</field>
+            <field name="standard_price">20.99</field>
+            <field name="list_price">24.90</field>
+            <field name="weight">0.80</field>
+            <field name="to_weight">True</field>
+            <field name="type">product</field>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="qty_available">40</field>
+            <field name="default_code">2070584624</field>
+            <field name="livre"
+                   eval="[(4, ref('book2'), None)]"/>
+            <field name="image_1920" type="base64" file="esi_lecture/images/house_of_leaves.jpg"></field>
+        </record>
+
+        
+        <record id="book_product_03" model="product.template">
+            <field name="name">Coffret Fight Feuilles</field>
+            <field name="available_in_pos">True</field>
+            <field name="standard_price">26.99</field>
+            <field name="list_price">40.90</field>
+            <field name="weight">1.20</field>
+            <field name="to_weight">True</field>
+            <field name="type">product</field>
+            <field name="categ_id" ref="point_of_sale.product_category_pos"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="qty_available">5</field>
+            <field name="default_code">2070584625</field>
+            <field name="livre"
+                   eval="[(4, ref('book1'), None), (4, ref('book2'), None)]"/>
+            <field name="image_1920" type="base64" file="esi_lecture/images/fight_feuilles.jpg"></field>
+        </record>
+
+        <record id="stock_inventory_0" model="stock.inventory">
+            <field name="name">Starting Inventory</field>
+        </record>
+<!--
+        <record id="stock_inventory_line_1" model="stock.inventory.line">
+            <field name="product_id" ref="book_product_01"/>
+            <field name="product_uom_id" ref="uom.product_uom_unit"/>
+            <field name="inventory_id" ref="stock_inventory_0"/>
+            <field name="product_qty">20</field>
+            <field name="location_id" model="stock.location" eval="obj().env.ref('stock.warehouse0').lot_stock_id.id"/>
+        </record>
+
+        <record id="stock_inventory_line_2" model="stock.inventory.line">
+            <field name="product_id" ref="book_product_02"/>
+            <field name="product_uom_id" ref="uom.product_uom_unit"/>
+            <field name="inventory_id" ref="stock_inventory_0"/>
+            <field name="product_qty">40</field>
+            <field name="location_id" model="stock.location" eval="obj().env.ref('stock.warehouse0').lot_stock_id.id"/>
+        </record>
+
+        <record id="stock_inventory_line_3" model="stock.inventory.line">
+            <field name="product_id" ref="book_product_03"/>
+            <field name="product_uom_id" ref="uom.product_uom_unit"/>
+            <field name="inventory_id" ref="stock_inventory_0"/>
+            <field name="product_qty">5</field>
+            <field name="location_id" model="stock.location" eval="obj().env.ref('stock.warehouse0').lot_stock_id.id"/>
+        </record>
+-->
+        <function model="stock.inventory" name="_action_start">
+            <function eval="[[('state','=','draft'),('id', '=', ref('stock_inventory_0'))]]"
+                      model="stock.inventory" name="search"/>
+        </function>
+
+        <function model="stock.inventory" name="action_validate">
+            <function eval="[[('state','=','confirm'),('id', '=', ref('stock_inventory_0'))]]"
+                      model="stock.inventory" name="search"/>
+        </function>
+    </data>
+</odoo>

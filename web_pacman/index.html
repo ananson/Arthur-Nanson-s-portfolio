@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/maze.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/afficher.js"></script>
+    <script src="js/model/Tile.js"></script>
+    <script src="js/model/Wall.js"></script>
+    <script src="js/model/Dot.js"></script>
+    <script src="js/model/Position.js"></script>
+    <script src="js/model/Layer.js"></script>
+    <script src="js/model/Maze.js"></script>
+    <script src="js/model/Game.js"></script>
+    <script src="js/view/GameView.js"></script>
+    <script src="js/constantes.js"></script>
+    <script src="js/controller/GameCtrl.js"></script>
+    <script src="js/model/Component.js"></script>
+    <script src="js/model/Direction.js"></script>
+    <script src="js/model/Sprite.js"></script>
+    <script src="js/model/Pacman.js"></script>
+    <script src="js/controller/PacmanCtrl.js"></script>
+    <script src="js/view/PacmanView.js"></script>
+    <script src="js/model/Ghost.js"></script>
+    <script src="js/model/addGhost.js"></script>
+    <title>PacMan</title>
+</head>
+<body id="corps">
+    <div id="contient">
+        <header>
+            <p><b>High score</b></p>
+            <p id="HighScore"></p>
+            <p id="currentScore"></p>
+        </header>
+
+        <main id="jeu">
+            
+        </main>
+        <footer></footer>
+    </div>
+    <script>
+        $('document').ready(function(){
+            //afficher();
+            controlleur = new GameCtrl();
+        });
+
+    </script>
+    
+</body>
+</html>

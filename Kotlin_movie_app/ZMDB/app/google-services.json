@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "464689889405",
+    "project_id": "zmdb-630f1",
+    "storage_bucket": "zmdb-630f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464689889405:android:27c186e97d0e2e3e9ff114",
+        "android_client_info": {
+          "package_name": "com.example.zmdb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4qgPBJlSMTUU3U8y4ZWzdnBPTSOhlfBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
